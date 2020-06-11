@@ -5,7 +5,7 @@ git add .
 git commit -m "$commit"
 git push origin master
 expect "Username for 'https://github.com'"
-send "burakgul01"
+send "burakgul01\r"
 expect "password"
 send "Burak137."
 echo ""
